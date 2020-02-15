@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+/* All good */
+.main-nav {
+	border: 1px solid black;
+	padding: 20px;
+}
+.main-nav a {
+	text-decoration: none;
+	color: slategray;
+}
+.nav-link {
+	padding: 20px;
+}
+
+.logo {
+	margin-top: -200px;
+	padding-left: 600px;
+	padding-bottom: 25px;
+}
+
+/* Needs fixed */
+.webpage-title-top {
+	margin-top:110px;
+	padding-left:100px;
+	padding-right: 550px;
+	font-size: 70px;
+}
+
+.webpage-title-middle {
+	padding-left:200px;
+	padding-right: 550px;
+	font-size: 70px;
+}
+
+.webpage-title-bottom {
+	padding-left:130px;
+	padding-right: 550px;
+	font-size: 70px;
+}
+
+.header-img {
+	padding-left: 500px;
+	margin-top: -350px;
+}
+
+.get-started-btn {
+	margin-left: 160px;
+	margin-right: 120px;
+	padding: 5px 10px;
+}
+
+.features {
+	margin-top: 100px;
+	padding-right: 500px;
+	padding-left: 50px
+}
+
+.about {
+	padding-left: 440px;
+	padding-right: 35px;
+	margin-top: -90px
+}
+
+.middle-img {
+	width: 95%;
+	margin-left: 35px;
+	margin-right: 35px;
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+
+.services{
+	padding-left: 50px;
+	padding-right: 600px;
+	margin-top: 30px;
+}
+.product{
+	padding-left: 310px;
+	padding-right: 315px;
+	margin-top: -128px;
+}
+.vision{
+	padding-left: 615px;
+	margin-top: -125px;
+	margin-right: 10px;
+	padding-right: -150px;
+
+}
+.Copyright {
+	padding-left: 350px;
+	margin-top: 5px;
+}
+
+.footer {
+	padding-left: 50px;
+	margin-top: 10px;
+}
+ .address, .phone-number, .website{
+	padding-bottom: 20px;
+}
