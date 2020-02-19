@@ -66,8 +66,14 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 /* All good */
+nav  {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
 .main-nav {
-	border: 1px solid black;
+	background-color: #87f1ff;
 	padding: 20px;
 }
 .main-nav a {
@@ -79,9 +85,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-	margin-top: -200px;
+	margin-top: -100px;
 	padding-left: 600px;
-	padding-bottom: 25px;
+	padding-bottom: 5px;
 }
 
 /* Needs fixed */
@@ -106,13 +112,18 @@ h1, h2, h3, h4, h5 {
 
 .header-img {
 	padding-left: 500px;
-	margin-top: -350px;
+	margin-top: -320px;
 }
 
 .get-started-btn {
 	margin-left: 160px;
 	margin-right: 120px;
 	padding: 5px 10px;
+}
+
+.get-started-btn:hover {
+	transform: scaleX(2);
+	transform: scaley(2);
 }
 
 .features {
@@ -128,13 +139,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .middle-img {
+	display: inline-block;
 	width: 95%;
 	margin-left: 35px;
 	margin-right: 35px;
 	padding-left: 20px;
 	padding-top: 20px;
-
 }
+
 
 .services{
 	padding-left: 50px;
